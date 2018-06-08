@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="asm02_Autolayout" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="B3P-LA-sIR">
+                                <rect key="frame" x="0.0" y="441.66666666666674" width="414" height="294.33333333333326"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="English-Premier-League" translatesAutoresizingMaskIntoConstraints="NO" id="qLq-Iw-G3o">
+                                        <rect key="frame" x="64" y="64.000000000000014" width="286" height="166.33333333333337"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="qLq-Iw-G3o" secondAttribute="bottom" constant="64" id="0YJ-Wo-Bxu"/>
+                                    <constraint firstItem="qLq-Iw-G3o" firstAttribute="leading" secondItem="B3P-LA-sIR" secondAttribute="leading" constant="64" id="E7V-rf-xrr"/>
+                                    <constraint firstAttribute="trailing" secondItem="qLq-Iw-G3o" secondAttribute="trailing" constant="64" id="KYF-7p-sRu"/>
+                                    <constraint firstItem="qLq-Iw-G3o" firstAttribute="top" secondItem="B3P-LA-sIR" secondAttribute="top" constant="64" id="LvK-OD-1Yg"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UER-0k-Qhl">
+                                <rect key="frame" x="0.0" y="20" width="414" height="127"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ac8d98a46fc449eacdd41955a0eb93db" translatesAutoresizingMaskIntoConstraints="NO" id="CH1-ej-EfD">
+                                        <rect key="frame" x="151" y="8" width="111" height="111"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="CH1-ej-EfD" secondAttribute="height" id="iO1-cA-LcT"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PRIMIER" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BBj-35-b63">
+                                        <rect key="frame" x="71" y="51" width="80" height="24"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                        <color key="textColor" red="0.56886375830000002" green="0.080836675570000002" blue="0.24469199899999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LEAGUE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Psb-fP-J0c">
+                                        <rect key="frame" x="262" y="51" width="78" height="24"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                        <color key="textColor" red="0.56886375830000002" green="0.080836675570000002" blue="0.24469199899999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="CH1-ej-EfD" firstAttribute="centerY" secondItem="UER-0k-Qhl" secondAttribute="centerY" id="5v5-Up-fuK"/>
+                                    <constraint firstItem="CH1-ej-EfD" firstAttribute="centerY" secondItem="UER-0k-Qhl" secondAttribute="centerY" id="I3e-UT-kPi"/>
+                                    <constraint firstItem="BBj-35-b63" firstAttribute="centerY" secondItem="UER-0k-Qhl" secondAttribute="centerY" id="NX9-HW-28x"/>
+                                    <constraint firstItem="CH1-ej-EfD" firstAttribute="top" secondItem="UER-0k-Qhl" secondAttribute="top" constant="8" id="SsW-ST-CMc"/>
+                                    <constraint firstItem="Psb-fP-J0c" firstAttribute="leading" secondItem="CH1-ej-EfD" secondAttribute="trailing" id="Z5B-hm-ygg"/>
+                                    <constraint firstItem="Psb-fP-J0c" firstAttribute="centerY" secondItem="UER-0k-Qhl" secondAttribute="centerY" id="a7q-oz-iJL"/>
+                                    <constraint firstItem="CH1-ej-EfD" firstAttribute="leading" secondItem="BBj-35-b63" secondAttribute="trailing" id="cTC-5h-7Yt"/>
+                                    <constraint firstItem="CH1-ej-EfD" firstAttribute="centerX" secondItem="UER-0k-Qhl" secondAttribute="centerX" id="wiM-m5-8HS"/>
+                                    <constraint firstItem="CH1-ej-EfD" firstAttribute="centerY" secondItem="UER-0k-Qhl" secondAttribute="centerY" id="wjh-91-bSO"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hU6-O6-9ev">
+                                <rect key="frame" x="0.0" y="147.00000000000003" width="414" height="293.66666666666674"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ManchesterCityFCbadge" translatesAutoresizingMaskIntoConstraints="NO" id="KLt-4m-10Q">
+                                        <rect key="frame" x="148.33333333333334" y="32" width="118.00000000000003" height="118"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="KLt-4m-10Q" secondAttribute="height" id="hD2-fs-pGq"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="manchester_united_logo" translatesAutoresizingMaskIntoConstraints="NO" id="Cr0-3X-OvV">
+                                        <rect key="frame" x="20.000000000000007" y="158.33333333333331" width="103.66666666666669" height="103.33333333333331"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="6683__1925__logo-125-splash-new-padded" translatesAutoresizingMaskIntoConstraints="NO" id="eBy-d1-mhB">
+                                        <rect key="frame" x="291.33333333333331" y="158.33333333333331" width="103.33333333333331" height="103.33333333333331"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="62+" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QvQ-Wu-445">
+                                        <rect key="frame" x="188.66666666666666" y="157.66666666666669" width="39" height="24"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                        <color key="textColor" red="0.56886375830000002" green="0.080836675570000002" blue="0.24469199899999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="50+" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cdc-3c-L8F">
+                                        <rect key="frame" x="52" y="269" width="40" height="24"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                        <color key="textColor" red="0.56886375830000002" green="0.080836675570000002" blue="0.24469199899999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="47-" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P5d-Hg-FqY">
+                                        <rect key="frame" x="325.66666666666669" y="269" width="35" height="24"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                        <color key="textColor" red="0.56886375830000002" green="0.080836675570000002" blue="0.24469199899999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="Cr0-3X-OvV" secondAttribute="bottom" constant="32" id="365-QJ-UtJ"/>
+                                    <constraint firstItem="P5d-Hg-FqY" firstAttribute="centerX" secondItem="eBy-d1-mhB" secondAttribute="centerX" id="6L3-Sx-vDC"/>
+                                    <constraint firstItem="cdc-3c-L8F" firstAttribute="centerX" secondItem="Cr0-3X-OvV" secondAttribute="centerX" id="Aj6-yy-ds4"/>
+                                    <constraint firstItem="QvQ-Wu-445" firstAttribute="top" secondItem="KLt-4m-10Q" secondAttribute="bottom" constant="8" id="I5e-hr-B75"/>
+                                    <constraint firstItem="KLt-4m-10Q" firstAttribute="width" secondItem="hU6-O6-9ev" secondAttribute="width" multiplier="1:3.5" id="ICM-DL-Oz5"/>
+                                    <constraint firstItem="Cr0-3X-OvV" firstAttribute="width" secondItem="hU6-O6-9ev" secondAttribute="width" multiplier="1:4" id="KKf-86-Hs7"/>
+                                    <constraint firstItem="eBy-d1-mhB" firstAttribute="width" secondItem="eBy-d1-mhB" secondAttribute="height" id="NkT-Ws-OO6"/>
+                                    <constraint firstItem="P5d-Hg-FqY" firstAttribute="top" secondItem="eBy-d1-mhB" secondAttribute="bottom" constant="8" id="TLN-Fa-ICC"/>
+                                    <constraint firstItem="eBy-d1-mhB" firstAttribute="width" secondItem="hU6-O6-9ev" secondAttribute="width" multiplier="1:4" id="U7V-Ev-HIX"/>
+                                    <constraint firstAttribute="trailing" secondItem="eBy-d1-mhB" secondAttribute="trailing" constant="20" id="YED-OI-PMl"/>
+                                    <constraint firstItem="QvQ-Wu-445" firstAttribute="centerX" secondItem="KLt-4m-10Q" secondAttribute="centerX" id="cZn-x8-f6n"/>
+                                    <constraint firstItem="Cr0-3X-OvV" firstAttribute="leading" secondItem="hU6-O6-9ev" secondAttribute="leading" constant="20" id="cc9-qG-l0R"/>
+                                    <constraint firstItem="Cr0-3X-OvV" firstAttribute="width" secondItem="Cr0-3X-OvV" secondAttribute="height" id="g5g-Uq-hHD"/>
+                                    <constraint firstAttribute="bottom" secondItem="eBy-d1-mhB" secondAttribute="bottom" constant="32" id="gLo-eO-AN5"/>
+                                    <constraint firstItem="cdc-3c-L8F" firstAttribute="top" secondItem="Cr0-3X-OvV" secondAttribute="bottom" constant="8" id="sqC-7U-yJr"/>
+                                    <constraint firstItem="KLt-4m-10Q" firstAttribute="top" secondItem="hU6-O6-9ev" secondAttribute="top" constant="32" id="wOI-g3-vBz"/>
+                                    <constraint firstItem="KLt-4m-10Q" firstAttribute="centerX" secondItem="hU6-O6-9ev" secondAttribute="centerX" id="xH4-2F-Ye0"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="B3P-LA-sIR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="2Em-9O-gMy"/>
+                            <constraint firstItem="hU6-O6-9ev" firstAttribute="trailing" secondItem="UER-0k-Qhl" secondAttribute="trailing" id="7OQ-5N-unN"/>
+                            <constraint firstItem="UER-0k-Qhl" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="1:5.8" id="867-ho-Dr8"/>
+                            <constraint firstItem="B3P-LA-sIR" firstAttribute="top" secondItem="hU6-O6-9ev" secondAttribute="bottom" constant="1" id="A7H-M1-INW"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="B3P-LA-sIR" secondAttribute="bottom" id="QPw-Ud-zuL"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="UER-0k-Qhl" secondAttribute="trailing" id="SIY-Kq-u6N"/>
+                            <constraint firstItem="hU6-O6-9ev" firstAttribute="top" secondItem="UER-0k-Qhl" secondAttribute="bottom" id="eZs-3S-6JY"/>
+                            <constraint firstItem="UER-0k-Qhl" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="g1d-4X-n4L"/>
+                            <constraint firstItem="UER-0k-Qhl" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="mZf-CP-l6G"/>
+                            <constraint firstItem="B3P-LA-sIR" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="2:5" id="moF-m3-2uF"/>
+                            <constraint firstItem="hU6-O6-9ev" firstAttribute="top" secondItem="UER-0k-Qhl" secondAttribute="bottom" id="qkb-FV-rVT"/>
+                            <constraint firstItem="hU6-O6-9ev" firstAttribute="leading" secondItem="UER-0k-Qhl" secondAttribute="leading" id="r6j-w8-fJx"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="B3P-LA-sIR" secondAttribute="trailing" id="xgd-0G-7gh"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="117.59999999999999" y="118.29085457271366"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="6683__1925__logo-125-splash-new-padded" width="175" height="223"/>
+        <image name="English-Premier-League" width="610" height="375"/>
+        <image name="ManchesterCityFCbadge" width="200" height="200"/>
+        <image name="ac8d98a46fc449eacdd41955a0eb93db" width="1028" height="1028"/>
+        <image name="manchester_united_logo" width="567" height="574"/>
+    </resources>
+</document>
