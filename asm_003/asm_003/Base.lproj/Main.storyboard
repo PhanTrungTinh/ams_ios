@@ -60,7 +60,7 @@
                                         <rect key="frame" x="0.0" y="194" width="375" height="130"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N13-Q8-aPM">
-                                                <rect key="frame" x="128" y="47" width="30" height="36"/>
+                                                <rect key="frame" x="129.5" y="47" width="30" height="36"/>
                                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                                 <state key="normal" title="-">
@@ -95,7 +95,7 @@
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="trailing" secondItem="Oc1-DV-3tE" secondAttribute="trailing" constant="32" id="7MU-Po-lGw"/>
-                                            <constraint firstItem="N13-Q8-aPM" firstAttribute="centerX" secondItem="TLF-2Z-rPr" secondAttribute="centerX" multiplier="0.76" id="DYC-C7-mQh"/>
+                                            <constraint firstItem="N13-Q8-aPM" firstAttribute="centerX" secondItem="TLF-2Z-rPr" secondAttribute="centerX" multiplier="0.77" id="DYC-C7-mQh"/>
                                             <constraint firstItem="N13-Q8-aPM" firstAttribute="centerY" secondItem="TLF-2Z-rPr" secondAttribute="centerY" id="FhO-zA-nin"/>
                                             <constraint firstItem="cM0-av-pCK" firstAttribute="centerX" secondItem="TLF-2Z-rPr" secondAttribute="centerX" multiplier="1.24" id="aGi-mG-mgq"/>
                                             <constraint firstItem="EwL-N8-e0G" firstAttribute="leading" secondItem="TLF-2Z-rPr" secondAttribute="leading" constant="32" id="o4I-bF-cQw"/>
