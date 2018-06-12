@@ -13,9 +13,10 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        path = "https://images-na.ssl-images-amazon.com/images/I/71YIzjpet%2BL.jpg"
     }
     override func viewDidAppear(_ animated: Bool) {
-    backgroundCircle.layer.cornerRadius=backgroundCircle.bounds.size.height/2
+backgroundCircle.layer.cornerRadius=backgroundCircle.bounds.size.height/2
         backgroundCircle.clipsToBounds=true
         backgroundCircle.layer.shadowColor=UIColor.blue.cgColor;
         backgroundCircle.layer.shadowOpacity=0.8
@@ -28,6 +29,6 @@ class ViewController: UIViewController {
     }
     
     @IBOutlet weak var backgroundCircle: UIView!
-    
+    var path = String();
 }
 
