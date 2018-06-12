@@ -61,6 +61,7 @@ class ViewController: UIViewController {
         setupNameApp()
         setupMenuPoint()
         setupVerticalCenterTop()
+        
         setupTextStandby()
     }
     func setRatioAndHeightConstraint(sub: UIImageView,superView : UIView ) {
